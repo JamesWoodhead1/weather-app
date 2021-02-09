@@ -5,18 +5,18 @@ import ForecastSummaries from "../../components/ForecastSummaries";
 describe("ForecastSummaries", () => {
   const validProps = [
     {
-      date: 11111,
+      date: 1111111,
       description: "Stub description 1",
-      icon: "stubIcon1",
+      icon: "800",
       temperature: {
         max: 22,
         min: 12,
       },
     },
     {
-      date: 22222,
+      date: 2222222,
       description: "Stub description 2",
-      icon: "stubIcon2",
+      icon: "602",
       temperature: {
         max: 24,
         min: 13,
