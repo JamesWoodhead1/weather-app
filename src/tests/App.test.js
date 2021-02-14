@@ -3,7 +3,7 @@ import React from "react";
 import App from "../components/App";
 
 describe("App", () => {
-  xit("renders as expected", () => {
+  it("renders as expected", () => {
     const { asFragment } = render(<App />);
     expect(asFragment()).toMatchSnapshot();
   });
